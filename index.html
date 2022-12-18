@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container">
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-friend-name">New Friend Name</label>
+                        <input type="text" class="form-control" id="new-friend-name">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-friend-number">New Friend Number</label>
+                        <input type="number" class="form-control" id="new-friend-number">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-friend-discord">New Friend Discord</label>
+                        <input type="text" class="form-control" id="new-friend-discord">
+                    </div>
+                </div>
+                </div>
+                <div>
+                    <button id="add" class="btn btn-primary form control">Add</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+   <table id="list" class="table table-dark table-striped">
+    <tr>
+        <th>Name</th>
+        <th>Phone Number</th>
+        <th>Discord</th>
+    </tr>
+   </table> 
+   <script src="index.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
